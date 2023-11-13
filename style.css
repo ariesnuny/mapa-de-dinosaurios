@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.hide {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 30vw;
+    overflow: hidden;
+    visibility: hidden;
+}
+.hide p {
+    width: 70%;
+    margin: 5px;
+}
+.hide h3 {
+    width: 70%;
+    text-align: center;
+}
+.hide img {
+    max-height: 150px;
+    /*height: auto;*/
+}
+
+.show {
+    visibility: visible;
+}
+
+
+@media  screen and (min-width: 359px) and (max-width: 420px) {
+    .noasaurus-txt {
+        top: 8%;
+        left: 44%;
+    }
+    .yungavolucris-txt {
+        top: 9%;
+        left: 40%;
+    }
+    .saltasaurus-txt {
+        top: 9%;
+        left: 47%;
+    }
+    .eoraptor-txt {
+        top: 22%;
+        left: 23%;
+    }
+    .herrerasaurus-txt {
+        top: 23%;
+        left: 27%;
+    }
+    .zupaysaurus-txt {
+        top: 21%;
+        left: 32%;
+    }
+    .pisanosaurus-txt { 
+        top: 22%;
+        left: 35%;
+    }
+    .riojasaurus-txt {
+        top: 20%;
+        left: 26%;
+    
+    }
+    .quetecsaurus-txt {
+        top: 40%;
+        left: 24%;
+    }
+    .lapampasaurus-txt {
+        top: 41.5%;
+        left: 31%;
+    }
+    .amargasaurus-txt {
+        top: 49%;
+        left: 10.5%;
+    }
+    .futalognkosaurus-txt {
+        top: 49.5%;
+        left: 16%;
+    }
+    .huinculsaurus-txt {
+        top: 47.5%;
+        left: 20.5%;
+    }
+    .isaberrysaura-txt {
+        top: 47%;
+        left: 15%;
+    }
+    .meraxes-txt {
+        top: 46%;
+        left: 25%;
+    }
+    .patagonykus-txt {
+        top: 45%;
+        left: 20%;
+    }
+    .rayososaurus-txt {
+        top: 44%;
+        left: 15%;
+    }
+    .skorpiovenator-txt {
+        top: 39.5%;
+        left: 16%;
+    }
+    .unenlagia-txt {
+        top: 42%;
+        left: 18%;
+    }
+    .viavenator-txt {
+        top: 42.5%;
+        left: 22%;
+    }
+    .giganotosaurus-txt {
+        top: 43%;
+        left: 26.5%;
+    }
+    .argentinosaurus-txt {
+        top: 51%;
+        left: 12%;
+    }
+    .buitreraptor-txt {
+        top: 50%;
+        left: 23%;
+    }
+    .gasparinisaura-txt {
+        top: 48%;
+        left: 32%;
+    }
+    .jakapil-txt {
+        top: 52.5%;
+        left: 19%;
+    }
+    .willinakaqe-txt {
+        top: 45%;
+        left: 31%;
+    }
+    .abelisaurus-txt {
+        top: 47.5%;
+        left: 40%;
+    }
+    .kritosaurus-txt {
+        top: 52.5%;
+        left: 35%;
+    }
+    .carnotaurus-txt {
+        top: 64%;
+        left: 22%;
+    }
+    .katepensaurus-txt {
+        top: 60%;
+        left: 32%;
+    }
+    .xenotarsosaurus-txt {
+        top: 57.5%;
+        left: 14%;
+    }
+    .patagosaurus-txt {
+        top: 62%;
+        left: 18%;
+    }
+    .piatnitzkysaurus-txt {
+        top: 61.5%;
+        left: 23%;
+    }
+    .epachthosaurus-txt {
+        top: 64%;
+        left: 15%;
+    }
+    .patagotitan-txt {
+        top: 58%;
+        left: 27%;
+    }
+    .drusilasaura-txt {
+        top: 67%;
+        left: 16%;
+    }
+    .orkoraptor-txt {
+        top: 75.5%;
+        left: 10.5%;
+    }
+    .talenkauen-txt {
+        top: 72%;
+        left: 10%;
+    }
+    .mussaurus-txt {
+        top: 70%;
+        left: 23%;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 920px) {
+    .noasaurus-txt {
+        top: 38%;
+        left: 44%;
+    }
+    .yungavolucris-txt {
+        top: 41%;
+        left: 42%;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1620px) {
+    .noasaurus-txt {
+        top: 38%;
+        left: 44%;
+    }
+    .yungavolucris-txt {
+        top: 41%;
+        left: 42%;
+    }
+    .saltasaurus-txt {
+        top: 44%;
+        left: 47%;
+    }
+    .eoraptor-txt {
+        top: 101%;
+        left: 23%;
+    }
+    .herrerasaurus-txt {
+        top: 107%;
+        left: 27%;
+    }
+    .zupaysaurus-txt {
+        top: 96%;
+        left: 32%;
+    }
+    .pisanosaurus-txt { 
+        top: 103%;
+        left: 35%;
+    }
+    .riojasaurus-txt {
+        top: 93%;
+        left: 27%;
+    }
+    .quetecsaurus-txt {
+        top: 185%;
+        left: 24%;
+    }
+    .lapampasaurus-txt {
+        top: 192%;
+        left: 31%;
+    }
+    .amargasaurus-txt {
+        top: 224%;
+        left: 10%;
+    }
+    .futalognkosaurus-txt {
+        top: 226%;
+        left: 15.5%;
+    }
+    .huinculsaurus-txt {
+        top: 218%;
+        left: 20%;
+    }
+    .isaberrysaura-txt {
+        top: 216%;
+        left: 15%;
+    }
+    .meraxes-txt {
+        top: 212%;
+        left: 25%;
+    }
+    .patagonykus-txt {
+        top: 208%;
+        left: 20%;
+    }
+    .rayososaurus-txt {
+        top: 204%;
+        left: 15%;
+    }
+    .skorpiovenator-txt {
+        top: 183%;
+        left: 15%;
+    }
+    .unenlagia-txt {
+        top: 193%;
+        left: 17%;
+    }
+    .viavenator-txt {
+        top: 196%;
+        left: 22%;
+    }
+    .giganotosaurus-txt {
+        top: 200%;
+        left: 26%;
+    }
+    .argentinosaurus-txt {
+        top: 235%;
+        left: 12%;
+    }
+    .buitreraptor-txt {
+        top: 228%;
+        left: 22%;
+    }
+    .gasparinisaura-txt {
+        top: 221%;
+        left: 31.5%;
+    }
+    .jakapil-txt {
+        top: 242%;
+        left: 18%;
+    }
+    .willinakaqe-txt {
+        top: 209%;
+        left: 30.5%;
+    }
+    .abelisaurus-txt {
+        top: 220%;
+        left: 40%;
+    }
+    .kritosaurus-txt {
+        top: 242%;
+        left: 35%;
+    }
+    .carnotaurus-txt {
+        top: 295%;
+        left: 21.5%;
+    }
+    .katepensaurus-txt {
+        top: 276%;
+        left: 31%;
+    }
+    .xenotarsosaurus-txt {
+        top: 265%;
+        left: 13.5%;
+    }
+    .patagosaurus-txt {
+        top: 286%;
+        left: 18%;
+    }
+    .piatnitzkysaurus-txt {
+        top: 283%;
+        left: 23%;
+    }
+    .epachthosaurus-txt {
+        top: 294%;
+        left: 14%;
+    }
+    .patagotitan-txt {
+        top: 266%;
+        left: 26.5%;
+    }
+    .drusilasaura-txt {
+        top: 309%;
+        left: 15%;
+    }
+    .orkoraptor-txt {
+        top: 346%;
+        left: 10%;
+    }
+    .talenkauen-txt {
+        top: 333%;
+        left: 9%;
+    }
+    .mussaurus-txt {
+        top: 325%;
+        left: 23%;
+    }
+}
+
