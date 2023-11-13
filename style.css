@@ -1,0 +1,21 @@
+#map-container {
+    position: relative;
+}
+
+#argentina-map {
+    width: 100%;
+}
+
+#dinosaur-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dinosaur-list {
+    list-style: none;
+    padding: 0;
+}
